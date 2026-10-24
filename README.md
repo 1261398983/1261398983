@@ -10,7 +10,7 @@ https://api.97wl.cc/v1
 
 兼容 [OI] + Anthropic 双协议，国内直连，按量计费。
 
-注册只需 QQ 邮箱，无需邀请码、无需外币卡：**[→ 打开站点](https://api.97wl.cc/)**
+注册只需 QQ 邮箱，无需邀请码、无需外币卡：**[→ 打开站点](https://api.97wl.cc/register)**
 
 ## 📘 配置指南
 
@@ -22,6 +22,20 @@ https://api.97wl.cc/v1
 - Codex CLI —— 改 `OPENAI_BASE_URL` 或写 `~/.codex/config.toml`
 - Cherry Studio / NextChat / LobeChat —— 填自定义端点
 - Python / Node.js / curl —— 换 `base_url` 即可
+
+## 🔍 排障与实测
+
+- **[连不上？四层排查](https://1261398983.github.io/ai-api-guide/why-blocked.html)** —— DNS / TLS / 鉴权 / 出口，每层给判据与命令
+- **[错误码完全对照表](https://1261398983.github.io/ai-api-guide/errors.html)** —— 401 / 402 / 429 / 500 逐个定位
+- **[8 家中转站延迟实测](https://1261398983.github.io/ai-api-guide/uptime.html)** —— 同机 5 次采样，原始样本公开
+
+## 🧭 决策参考
+
+- **[中转站怎么选](https://1261398983.github.io/ai-api-guide/choosing-relay.html)** —— 6 条判断标准 + 5 个 60 秒验证动作
+- **[跑路前兆与资金安全](https://1261398983.github.io/ai-api-guide/risk.html)** —— 7 个可查信号 + 止损步骤
+- **[成本对照](https://1261398983.github.io/ai-api-guide/cost-compare.html)** —— 倍率不等于折扣，含汇率与重试损耗
+- **[能开发票吗](https://1261398983.github.io/ai-api-guide/invoice.html)** —— 企业采购与报销的四条路径
+- **[团队 Key 管理](https://1261398983.github.io/ai-api-guide/team-keys.html)** —— 共用一把 key 的四个坑
 
 ## 📂 相关仓库
 
