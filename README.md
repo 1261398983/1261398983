@@ -5,12 +5,10 @@
 **统一端点**
 
 ```
-https://your-endpoint.example.com/v1
 ```
 
 兼容 [OI] + Anthropic 双协议，国内直连，按量计费。
 
-注册只需 QQ 邮箱，无需邀请码、无需外币卡：**[→ 打开站点]()**
 
 ## 📘 配置指南
 
@@ -63,11 +61,9 @@ https://your-endpoint.example.com/v1
 
 ```bash
 # [CC] —— 注意 base_url 不带 /v1
-export ANTHROPIC_BASE_URL="https://your-endpoint.example.com"
 export ANTHROPIC_AUTH_TOKEN="你的Key"
 
 # Codex CLI / [OI] 兼容客户端 —— 要带 /v1
-export OPENAI_BASE_URL="https://your-endpoint.example.com/v1"
 export OPENAI_API_KEY="你的Key"
 ```
 
